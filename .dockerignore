@@ -1,0 +1,17 @@
+
+.git
+.github
+.metadata
+.settings
+.classpath
+.project
+target/
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
+Dockerfile*
+README.md
+mvnw.cmd
+

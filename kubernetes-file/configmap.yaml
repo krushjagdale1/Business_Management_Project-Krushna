@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: business-management-config
+  namespace: krushna
+data:
+  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/businessproject"
+  SERVER_PORT: "2330"
+  JAVA_OPTS: "-Xms128m -Xmx256m -XX:+UseSerialGC -XX:ActiveProcessorCount=1"
